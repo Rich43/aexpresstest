@@ -1,7 +1,7 @@
 package com.example.four;
 
 public class MainApplicationFour {
-    public static void main(char[] args) {
+    public static void main(String[] args) {
         System.out.println("Testing");
     }
 }
