@@ -12,7 +12,7 @@ public class SolutionOneService {
         while (y < n) {
             final var stringToAppend = new StringBuilder("L");
             if (y + 1 == n) {
-                range(1, n).forEach(ignore -> stringToAppend.append("L"));
+                range(0, y).forEach(ignore -> stringToAppend.append("L"));
             }
             output.add(stringToAppend.toString());
             y++;
