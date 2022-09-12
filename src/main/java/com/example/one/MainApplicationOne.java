@@ -2,6 +2,7 @@ package com.example.one;
 
 public class MainApplicationOne {
     public static void main(String[] args) {
-        System.out.println("Testing");
+        final var service = new SolutionOneService();
+        service.run(4).forEach(System.out::println);
     }
 }
